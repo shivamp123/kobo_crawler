@@ -82,4 +82,10 @@ The script is divided into two main functions:
 ## Code Overview
 
 1. Using "input_function" selenium download the all pages (if there are any changes we can read the page and get the data no need to run everytime).
-2. using "get_output" function read the all pages and save all data on database.
+   In selenium there are selenium port option for that need to do some configuration in system which are mention below:
+    Step-1 open this path :- C:\Program Files (x86)\Google\Chrome\Application
+    step-2 system enviroment -> system variable -> path -> paste this path 
+    step-3 run this line in CMD  chrome.exe -remote-debugging-port=9028 --user-data-dir="D:\Selenium\Chrome_Test_Profile
+    
+    
+3. using "get_output" function read the all pages and save all data on database.
